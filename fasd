@@ -82,9 +82,9 @@ EOS
 alias a='fasd -a'
 alias s='fasd -si'
 alias sd='fasd -sid'
-alias sf='fasd -sif -e nvim'
+alias sf='fasd -sif -e $EDITOR'
 alias d='fasd -d'
-alias f='fasd -f -e nvim'
+alias f='fasd -f -e $EDITOR'
 # function to execute built-in cd
 fasd_cd() {
   if [ \$# -le 1 ]; then
